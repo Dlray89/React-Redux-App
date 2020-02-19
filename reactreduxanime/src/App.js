@@ -14,11 +14,11 @@ function App(props) {
   return (
 
     <div className="App">
-     <h1> My Hero Academia</h1>
+     <h1 style={{color: " white"}}> My Hero Academia</h1>
      {props.isFetchingData ? (
   <div> we are fetching data</div>
     ) : ( 
-    <button onClick={handleData}>Movies & Episodes</button> )}
+    <button style={{padding: "1%", width: "10%", margin: "0 auto",  background: "#45a247", border: "solid 2px #283c86", borderRadius: "20px"}} onClick={handleData}>Movies & Episodes</button> )}
 <AnimeList />
     </div>
   );
